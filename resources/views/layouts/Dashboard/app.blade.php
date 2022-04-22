@@ -7,6 +7,8 @@
 <body class="hold-transition sidebar-mini layout-fixed" dir="{{ LaravelLocalization::getCurrentLocaleDirection() }}">
 <div class="wrapper">
     <!-- Navbar -->
+@include('sweetalert::alert')
+
 @include('partials.navbar')
 <!-- /.navbar -->
     <!-- Main Sidebar Container -->

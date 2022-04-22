@@ -27,7 +27,7 @@
 
 @if(app()->getLocale() == 'ar')
 <!-- Bootstrap 4 RTL -->
-<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css'">
 <!-- Custom style for RTL -->
 <link rel="stylesheet" href="{{asset('dashboard/dist/css/custom.css')}}">
 <link rel="stylesheet" href="{{asset('dashboard/dist/css/rtl/bootstrap-rtl.css')}}">
@@ -35,5 +35,8 @@
 <link rel="stylesheet" href="{{asset('dashboard/dist/css/rtl/bootstrap-rtl.min.css')}}">
 <link rel="stylesheet" href="{{asset('dashboard/dist/css/rtl/bootstrap-rtl.min.css.map')}}">
 @endif
-
+<script
+        src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+        defer
+></script>
 @yield('styles')

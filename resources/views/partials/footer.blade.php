@@ -1,8 +1,8 @@
-<footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+<footer class="main-footer text-center">
+    <strong>Copyright &copy; 2022 <a href="http://pos.io">POS</a>.</strong>
     All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 3.0.5
+    <div class=" d-none d-sm-inline-block">
+        <b>Abdelrazek</b>Php
     </div>
 </footer>
 

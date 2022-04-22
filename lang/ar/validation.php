@@ -133,4 +133,13 @@ return [
             'rule-name' => 'custom-message',
         ],
     ],
+
+
+	'ar' => [
+		'name' =>'name in arabic',
+	],
+	'en' => [
+		'name' =>'name in english',
+	],
+
 ];
